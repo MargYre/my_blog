@@ -1,5 +1,4 @@
 
-// components/ArticleList.svelte - Liste de tous les articles
 <script>
   import { onMount } from 'svelte';
   import { getAllArticles, deleteArticle } from '../services/db';
